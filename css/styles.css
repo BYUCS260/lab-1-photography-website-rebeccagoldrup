@@ -1,0 +1,108 @@
+body {
+  font-family: century-gothic, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #A9A9A9;
+}
+
+html, body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.navbar-brand {
+  color: #B22222 !important;
+  font-style: bold;
+  font-weight: 700;
+  font-size: 1.6em;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #708090 !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #A9A9A9 !important;
+}
+
+.navbar {
+  font-size: 1.2em;
+}
+
+a {
+    color: #708090;
+}
+
+a:active, a:hover {
+    color: #A9A9A9;
+    text-decoration: none;
+}
+
+.footer {
+  position: fixed;
+  left: 10px;
+  bottom: 5px;
+  right: 10px;
+  width: 95%;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.page {
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  flex-grow: 1;
+  background: #F8F8FF;
+}
+
+.reviews {
+  padding-left: 30px;
+  padding-right: 50px;
+}
+
+.cheesy-quote {
+  font-style: italic;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.portfolio {
+  display: grid;
+  grid-template: auto auto auto auto auto / 1fr 1fr 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+.image img {
+  width: 100%;
+}
+
+.contact-container {
+  display: flex;
+  padding-right: 600px;
+}
+
+.contact-info {
+  padding-left: 30px;
+}
+
+.reviewer {
+  display: flex;
+  padding-bottom: 10px;
+}
+
+.reviewer-image {
+  padding-right: 20px;
+}
+
+@media only screen and (max-width: 400px) {
+  .page {
+    background: red;
+  }
+  body {
+    font-size: 30px;
+  }
+}
